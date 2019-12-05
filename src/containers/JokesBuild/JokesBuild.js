@@ -7,16 +7,12 @@ class JokesBuild extends Component {
     };
 
     async componentDidMount() {
-        this.Change()
-    }
+            const response = await fetch('https://api.chucknorris.io/jokes/random');
 
-   async Change() {
-        const response = await fetch('https://api.chucknorris.io/jokes/random');
+            if(response.ok){
+                const jokes = await response.json();
 
-        if(response.ok){
-            const jokes = await response.json();
-
-            this.setState({jokes});
+                this.setState({jokes});
         }
     }
 
