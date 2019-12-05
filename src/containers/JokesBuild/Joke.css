@@ -1,0 +1,12 @@
+.JokesBuild {
+    background: url("https://img.gazeta.ru/files3/199/10567199/upload-01-pic685-685x390-63460.jpg") no-repeat;
+    border-radius: 10px;
+    min-height: 380px;
+}
+.text {
+    border: 1px solid saddlebrown;
+    border-radius: 10px;
+    background: whitesmoke;
+    padding: 8px;
+    opacity: 0.8;
+}

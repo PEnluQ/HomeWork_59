@@ -1,13 +1,13 @@
 import React from 'react';
 import FilmList from "./containers/FilmList/FilmList";
-import Jokes from "./containers/Jokes/Jokes";
+import JokesBuild from "./containers/JokesBuild/JokesBuild";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <FilmList/>
-      <Jokes/>
+      <JokesBuild/>
     </div>
   );
 }

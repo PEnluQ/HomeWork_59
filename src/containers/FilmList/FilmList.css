@@ -1,0 +1,6 @@
+.FilmList {
+    max-width: 500px;
+    border: 5px dotted black;
+    text-align: center;
+    padding: 15px;
+}
